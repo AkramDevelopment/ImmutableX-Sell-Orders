@@ -62,10 +62,12 @@ const intiateSale = async (price, contractAddress, tokenID) => {
   }
 };
 
-//Make sure everything is in string form!
+
 
 /*/
+
 Example usage of the function: 
+Make sure everything is in string form!
 intiateSale(
   "2000000000000000000", <---- Price in ETH
   "0xaa84c36e454e632c6880d2563986be75718fbc6f", <---- Contract Address 
